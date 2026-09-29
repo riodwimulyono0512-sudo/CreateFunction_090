@@ -8,9 +8,9 @@ def convert_temperaturs(value, unit):
 
 print("========= KONVERSI SUHU ========")
 
-input_suhu = flast(input("Masukkan nilai suhu: "))
+input_suhu = float(input("Masukkan nilai suhu: "))
 unit = input("Masukkan satuan suhu ('C' untuk Celcius atau 'F' untuk Fahrenheit): ")
-konversi = convert_temperature(input_suhu, unit)
+konversi = convart_tamperature(input_suhu, unit)
 if unit.upper() == 'C':
     print(f"{input_suhu})°C = {konversi:.2f}°F")
 elif unit.upper() == 'F':
